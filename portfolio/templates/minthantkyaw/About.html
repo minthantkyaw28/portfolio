@@ -1,0 +1,182 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Portfolio - Min Thant Kyaw</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/style.min.css"
+      rel="stylesheet"
+    />
+    <link href="{% static 'css/styles.css '%}" rel="stylesheet" />
+    <link href="{% static 'css/all.css '%}" rel="stylesheet" />
+    <script
+      src="https://use.fontawesome.com/releases/v6.3.0/js/all.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <style></style>
+  <body class="sb-nav-fixed">
+    <nav class="sb-topnav navbar navbar-expand d-block d-sm-none d-md-none">
+      <!-- Sidebar Toggle-->
+      <button
+        class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0 flex-end"
+        id="sidebarToggle"
+        href="#!"
+      >
+        <i class="fas fa-bars btn-red"></i>
+      </button>
+    </nav>
+    <div id="layoutSidenav">
+      <div id="layoutSidenav_nav" class="sidenave-whiteline">
+        <nav class="sb-sidenav accordion" id="sidenavAccordion">
+          <div class="sb-sidenav-menu">
+            <div class="nav">
+              <div class="logo">
+                <div>
+                  <h3>Min</h3>
+                  <h3>Thant</h3>
+                  <h3>Kyaw</h3>
+                </div>
+              </div>
+
+              <a
+                class="nav-link mt-5 mb-2 navlinkwhite navlinkhoverred"
+                href="{% url 'index' %}"
+              >
+                Home
+              </a>
+              <div class="whitelinebelow"></div>
+
+              <a
+                class="nav-link my-2 navlinkwhite navlinkhoverred pagehere"
+                href="{% url 'about' %}"
+              >
+                About
+              </a>
+              <div class="whitelinebelow"></div>
+
+              <a
+                class="nav-link my-2 navlinkwhite navlinkhoverred"
+                href="{% url 'education' %}"
+              >
+                Education
+              </a>
+              <div class="whitelinebelow"></div>
+
+              <a
+                class="nav-link my-2 navlinkwhite navlinkhoverred"
+                href="{% url 'skills' %}"
+              >
+                Skills
+              </a>
+              <div class="whitelinebelow"></div>
+
+              <a
+                class="nav-link my-2 navlinkwhite navlinkhoverred"
+                href="{% url 'projects' %}"
+              >
+                Projects
+              </a>
+              <div class="whitelinebelow"></div>
+
+              <a
+                class="nav-link my-2 navlinkwhite navlinkhoverred"
+                href="{% url 'contact' %}"
+              >
+                Contact
+              </a>
+              <div class="whitelinebelow"></div>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div id="layoutSidenav_content">
+        <main>
+          <div class="container-fluid">
+            <div class="about-page row">
+              <div class="col-2"></div>
+              <div class="col-8">
+                <h1>About Me</h1>
+                <div class="redlinebelow"></div>
+
+                {% if about_text %} {% for p_text in about_text %}
+                <p>{{ p_text }}</p>
+                {% endfor %} {% else %}
+                <p>No P Text</p>
+                {% endif %} {% comment %}
+                <p>
+                  Hello there! I'm Min Thant Kyaw, a 20-year-old software
+                  engineering student hailing from the beautiful country of
+                  Myanmar. Ever since I was 15, I've been captivated by the
+                  world of computer science and programming, and it's been an
+                  exhilarating journey ever since.
+                </p>
+                <p>
+                  One thing that sets me apart is my versatility, I possess both
+                  leadership skills and the ability to be a valuable team
+                  player. I believe that great leadership is not just about
+                  giving directions but also about listening, understanding, and
+                  empowering others. On the flip side, I recognize the
+                  importance of being a good follower, as it fosters
+                  collaboration and synergy within a team.
+                </p>
+                <p>
+                  Teamwork is my forte; I thrive in collaborative environments
+                  where diverse minds come together to solve complex challenges.
+                  I enjoy contributing my skills and ideas while being receptive
+                  to others' viewpoints. The satisfaction of achieving
+                  collective goals drives me forward.
+                </p>
+                <p>
+                  Learning has become my life's philosophy. I am always eager to
+                  explore new technologies, tools, and methodologies to expand
+                  my skill set and stay on the cutting edge. The dynamic nature
+                  of the tech industry excites me, and I embrace every
+                  opportunity to evolve and grow as a software engineer.
+                </p>
+                <p>
+                  In my free time, you'll often find me experimenting with
+                  personal coding projects or diving into the latest tech
+                  trends. Besides my love for technology, I also appreciate the
+                  arts, exploring nature, and connecting with diverse cultures.
+                </p>
+                <p>
+                  I believe that technology can be a powerful force for positive
+                  change, and I am committed to leveraging my passion for
+                  programming to contribute to innovative solutions that make a
+                  difference in people's lives.
+                </p>
+                <p>
+                  Thank you for visiting my portfolio, and I hope you enjoy
+                  exploring my work. If you have any inquiries or collaboration
+                  opportunities, feel free to get in touch. Let's embark on a
+                  transformative journey together!
+                </p>
+                {% endcomment %}
+                <p>
+                  <a href="{% url 'contact' %}" class="connectwithme"
+                    >Connect with me:
+                  </a>
+                </p>
+              </div>
+              <div class="col-2"></div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="{% static 'js/scripts.js' %}"></script>
+  </body>
+</html>

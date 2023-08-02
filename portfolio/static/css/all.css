@@ -1,0 +1,392 @@
+/* Common CSS Start*/
+body{
+    background-color: black;
+}
+.sidenave-whiteline{
+    border-right: .5px solid rgba(255, 255, 255, 0.843);
+    background-color: black;
+}
+.logo{
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: rgba(250, 0, 0, 0.797);
+    width: 160px;
+    height: 140px;
+    display: inline-block;
+    align-items: center;
+}
+
+.logo div{
+    margin-top: 10px;
+    margin-left: 35px;
+}
+
+.logo h3{
+    
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    /* text-align: center; */
+}
+
+.navlinkwhite{
+    margin-left: 5px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.navlinkhoverred{
+    transition: all .3s ease-in-out;
+}
+.navlinkhoverred:hover{
+    color: rgba(250, 0, 0, 0.797);
+}
+
+.whitelinebelow{
+    margin-left: 16px;
+    width: 75%;
+    border: 0.001px solid rgba(255, 255, 255, 0.609);
+}
+
+.btn-red{
+    width: 20px;
+    height: 20px;
+    
+    color: rgba(250, 0, 0, 0.896);
+}
+
+.pagehere{
+    color: rgba(250, 0, 0, 0.797);
+}
+
+
+/* Common CSS End*/
+
+ /* Home CSS Styling Start */
+ .profile-name{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 5%;
+    text-align: center;
+    color: white;
+}
+
+.profile-profession{
+    margin-top: 10px;
+    margin-right: 5%;
+    color: rgb(255, 0, 0);
+    font-weight: 800;
+
+    text-align: center;
+}
+
+.profile-page .profile-pic{
+    margin-left: 8%;
+    background-color: white;
+    border-radius: 50%;
+    width: 80%;
+    height:65%;
+}
+
+.profile-pic img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.whitelinebelow-profile{
+    margin-top: 15px;
+    width: 100%;
+    border: 0.001px solid rgba(255, 255, 255, 0.609);
+}
+
+@media (max-width:768px) {
+    
+    .profile-name{
+   text-align: center;
+   
+    color: white;
+    }
+
+.profile-profession{
+    margin-top: 10px;
+    /* margin-right: 5%;
+    margin-left: 7%; */
+    text-align: center;
+    color: rgba(250, 0, 0, 0.896);
+    font-weight: 800;
+}
+
+.profile-page .profile-pic{
+    margin-left:-1%;
+    background-color: white;
+    border-radius: 50%;
+    width:100%;
+    height:40%;
+}
+
+.profile-pic img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.whitelinebelow-profile{
+    margin-top: 15px;
+    width: 96%;
+    border: 0.001px solid rgba(255, 255, 255, 0.609);
+}
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+
+    .profile-page .profile-pic {
+            margin-left: -1%;
+            background-color: white;
+            border-radius: 50%;
+            width: 100%;
+            height:70%;
+        }
+}
+/* Home CSS Styling End*/
+
+
+/* About page CSS Styling Start*/
+     
+.about-page h1{
+    text-transform: uppercase;
+    color: white;
+}
+.redlinebelow{
+    margin-top: 15px;
+   
+    width: 100%;
+    border: 0.001px solid rgba(250, 0, 0, 0.896);
+}
+.about-page p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 25px;
+   
+    color: rgb(255, 255, 255);
+    font-weight: 200;
+}
+.connectwithme{
+    color: rgba(250, 0, 0, 0.691);
+    margin-bottom: 10px;
+}
+
+/* About page CSS Styling End*/
+
+/* Skills page CSS Styling Start*/
+     
+.about-page h1{
+    text-transform: uppercase;
+    color: white;
+}
+.redlinebelow{
+    margin-top: 15px;
+   
+    width: 100%;
+    border: 0.001px solid rgba(250, 0, 0, 0.896);
+}
+.about-page p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.876);
+    font-weight: 200;
+}
+.connectwithme{
+    color: rgba(250, 0, 0, 0.691);
+    margin-bottom: 10px;
+}
+
+.skillsrow{
+    margin-top: 30px;
+
+    color: white;
+}
+
+.skillicon{
+    border-radius: 20px;
+    margin: auto;
+    margin-bottom: 50px;
+    background-color: rgb(240, 255, 255);
+    width: 250px;
+    height: 250px;
+}
+
+.skillicon img{
+    margin-left: -22px;
+    width:120%;
+    height:100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+/* Skills page CSS Styling End*/
+
+ /* Education page CSS Styling Start */
+     
+ .education-page h1{
+    text-transform: uppercase;
+    color: white;
+}
+
+.redlinebelow{
+    margin-top: 15px;
+   
+    width: 100%;
+    border: 0.001px solid rgba(250, 0, 0, 0.896);
+}
+
+.education-list{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.education-group{
+    margin-bottom: 20px;
+}
+
+.education-group h6, .education-group h5{
+    color: white;
+}
+
+.education-group h6{
+    margin-bottom: 20px;
+}
+.education-group p{
+    color: rgba(250, 0, 0, 0.896);
+}
+
+.whiteline{
+    width: 100%;
+    border: 0.001px solid rgba(255, 255, 255, 0.609);
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+ /* Education page CSS Styling End*/
+
+
+/* Projects page CSS Styling Start */
+     
+   .projects-page h1{
+    text-transform: uppercase;
+    color: white;
+}
+
+.redlinebelow{
+    margin-top: 15px;
+   
+    width: 100%;
+    border: 0.001px solid rgba(250, 0, 0, 0.896);
+}
+
+.projects-list{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.projects-group{
+    margin-bottom: 40px;
+}
+
+.projects-group h3{
+   color: rgba(250, 0, 0, 0.896);
+}
+
+.projects-group h5{
+    color: white;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.whiteline{
+    width: 100%;
+    border: 0.001px solid rgba(255, 255, 255, 0.609);
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.projects-group .btn-github{
+    border-radius: 2px;
+    color: white;
+    text-transform: uppercase;
+    background-color: rgba(250, 0, 0, 0.797);
+}
+
+.projects-group .btn-seemore{
+    border-radius: 2px;
+    color: white;
+    text-transform: uppercase;
+    background-color: rgba(250, 0, 0, 0.797);
+
+}
+/* Projects page CSS Styling End */
+
+/* Contact page CSS Styling Start*/
+     
+   .contact-page h1{
+    text-transform: uppercase;
+    color: white;
+}
+
+.redlinebelow{
+    margin-top: 15px;
+   
+    width: 100%;
+    border: 0.001px solid rgba(250, 0, 0, 0.896);
+}
+
+
+.contact-box{
+    margin-top: 50px;
+}
+.contact-box .title{
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.contact-box .data{
+    font-size: 20px;
+    color: rgba(250, 0, 0, 0.896);
+    margin-bottom: 5px;
+}
+
+.contact-box-divider{
+    width: 100%;
+    border: 0.001px solid rgba(255, 255, 255, 0.287);
+}
+
+.contact-form{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.contact-form h3{
+    text-transform: uppercase;
+}
+
+.contact-form  .whiteline{
+    width: 100%;
+    border: 0.001px solid rgba(255, 255, 255, 0.609);
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.contact-form .btn-say-hello{
+    border-radius: 2px;
+    color: white;
+    text-transform: uppercase;
+    background-color: rgba(250, 0, 0, 0.797);
+}
+/* Contact page CSS Styling End*/
