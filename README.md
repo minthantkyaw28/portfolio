@@ -28,7 +28,7 @@ http://minthantkyaw.pythonanywhere.com/minthantkyaw
 
  - [Django Documentation](https://docs.djangoproject.com/en/4.2/)
  - [Bootstrap Documentation](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
- - [Pythin Anywhere](https://www.pythonanywhere.com)
+ - [Python Anywhere](https://www.pythonanywhere.com)
  - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
  - [Awesome README](https://github.com/matiassingers/awesome-readme)
  - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
