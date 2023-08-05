@@ -7,6 +7,10 @@ Purpose of this project is to serve me as my Portfolio webite and solid proof th
 
 Backend as Django. Frontend as HTML/CSS/JS/Bootstrap5. Database as SQLite Database. Hosted on pythonanywhere.com.
 
+## Preview
+
+http://minthantkyaw.pythonanywhere.com/minthantkyaw
+
 ## Authors
 
 - [@minthantkyaw28](https://www.github.com/minthantkyaw28)
